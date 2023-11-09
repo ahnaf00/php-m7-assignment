@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', [UserController::class,'sayHello']);
+Route::get('/hello', [UserController::class,'UserController']);
